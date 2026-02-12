@@ -1,0 +1,60 @@
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-button {
+  width: 100px;
+  height: 36px;
+  margin-bottom: 2rem;
+}
+
+.skeleton-image {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+}
+
+.skeleton-title {
+  height: 40px;
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+
+.skeleton-label {
+  height: 14px;
+  width: 60%;
+}
+
+.skeleton-text {
+  height: 20px;
+  width: 90%;
+}
+
+.skeleton-subtitle {
+  height: 28px;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.skeleton-episode {
+  height: 32px;
+  list-style: none;
+}

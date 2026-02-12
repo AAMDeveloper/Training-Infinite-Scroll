@@ -1,0 +1,55 @@
+## Node / package managers
+node_modules/
+.pnp/
+.pnp.js
+.pnp.cjs
+.pnpm-store/
+.pnpm/
+
+## Next.js
+.next/
+.next/cache/
+.vercel/
+.vercel_build_output/
+out/
+build/
+.output/
+
+## Env
+.env
+.env.*.local
+.env.local
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+## Editor/IDE
+.vscode/
+.idea/
+.history/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Tests / coverage
+coverage/
+
+## TypeScript
+*.tsbuildinfo
+
+## Caches
+.cache/
+.parcel-cache/
+.sass-cache/
+.next/cache
+.eslintcache
+
+## Misc
+dist/
+*.pem
+

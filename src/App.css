@@ -1,0 +1,71 @@
+.table--showColors tr:nth-child(odd) {
+  background: #333;
+}
+
+.table--showColors tr:nth-child(even) {
+  background: #555;
+}
+
+header {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+header button {
+  margin: 0 4px;
+}
+
+header input {
+  padding: 0.6em 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.pointer {
+  cursor: crosshair;
+}
+
+main {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th,
+table td {
+  padding: 0.8em;
+  text-align: left;
+  border-bottom: 1px solid #555;
+}
+
+table th {
+  background-color: #222;
+  font-weight: bold;
+}
+
+table tbody tr {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+table tbody tr:hover {
+  background-color: rgba(100, 108, 255, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(100, 108, 255, 0.3);
+}
+
+table button {
+  padding: 0.4em 0.8em;
+  font-size: 0.9em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
